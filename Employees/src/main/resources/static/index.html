@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management</h1>
+
+        <div class="employee-form">
+            <h2>Add Employee</h2>
+            <input type="text" id="empName" placeholder="Name" required />
+            <input type="text" id="empPhone" placeholder="Phone" required />
+            <input type="email" id="empEmail" placeholder="Email" required />
+            <button id="addEmployeeBtn">Add Employee</button>
+        </div>
+
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search by Name, Phone or Email" />
+            <button id="searchBtn">Search</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <h2>Employee List</h2>
+        <table id="employeeTable">
+           
+            <tbody>
+                <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>Phone</th>
+                      <th>Email</th>
+                      <th>Action</th>
+                    </tr>
+                </thead>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management</h1>
+
+        <div class="employee-form">
+            <h2>Add Employee</h2>
+            <input type="text" id="empName" placeholder="Name" required />
+            <input type="text" id="empPhone" placeholder="Phone" required />
+            <input type="email" id="empEmail" placeholder="Email" required />
+            <button id="addEmployeeBtn">Add Employee</button>
+        </div>
+
+        <!-- 🔍 Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search by Name, Phone or Email" />
+            <button id="searchBtn">Search</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <h2>Employee List</h2>
+
+        <!-- Employee List Wrapper (responsive table) -->
+        <div class="table-wrapper">
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Employee rows will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
